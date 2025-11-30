@@ -3,7 +3,7 @@
 
     <Resource name="jdbc/murach" auth="Container"
               driverClassName="com.mysql.cj.jdbc.Driver"
-              url="jdbc:mysql://mysql-16b92ddc-leduyhung412max-437f.g.aivencloud.com:15587/murach?autoReconnect=true"
+              url="jdbc:mysql://mysql-16b92ddc-leduyhung412max-437f.g.aivencloud.com:15587/murach?autoReconnect=true&amp;useSSL=true&amp;requireSSL=true&amp;verifyServerCertificate=false"
               username="avnadmin" password="AVNS_yD6aL9OstzVWaUaz5Ui"
               maxActive="100" maxIdle="30" maxWait="10000"
               logAbandoned="true" removeAbandoned="true"
