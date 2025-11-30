@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ch12email">
+
+    <Resource name="jdbc/murach" auth="Container"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://mysql-16b92ddc-leduyhung412max-437f.g.aivencloud.com:15587/murach?autoReconnect=true"
+              username="avnadmin" password="AVNS_yD6aL9OstzVWaUaz5Ui"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              logAbandoned="true" removeAbandoned="true"
+              removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+
+</Context>
